@@ -122,7 +122,7 @@ class OtimizacaoEstoqueGUI:
         # Parâmetros do problema
         self.params = {
             'D': ('Demanda anual (D):', 1000),
-            'S': ('Custo de pedido (S):', 50),
+            'S': ('Custo de fazer um pedido (S):', 50),
             'H': ('Custo de manutenção (H):', 2),
             'C': ('Capacidade máxima (C):', 200),
             'Sseg': ('Estoque segurança (Sseg):', 10),
